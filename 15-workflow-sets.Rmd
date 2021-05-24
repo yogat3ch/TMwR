@@ -194,7 +194,7 @@ The `option` column is a placeholder for any arguments to use when we evaluate t
 ```{r workflow-sets-info-update}
 normalized <- 
    normalized %>% 
-   option_add(param = nnet_param, id = "normalized_neural_network")
+   option_add(param_info = nnet_param, id = "normalized_neural_network")
 normalized
 ```
 
